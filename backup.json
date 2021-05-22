@@ -1,0 +1,191 @@
+{
+    "books": [
+        {
+            "_id": "0e091081-dd85-4bd4-86a9-02c114292148",
+            "name": "tough least option",
+            "author_id": "0224d702-8e4f-4841-ad8b-cd1b15829d7b"
+        },
+        {
+            "_id": "6078f635-4639-40f1-88d1-5eeeeb78c213",
+            "name": "class medical",
+            "author_id": "0224d702-8e4f-4841-ad8b-cd1b15829d7b"
+        },
+        {
+            "_id": "9afd11c5-1a72-466b-9a1d-aa0d4a1d3a0c",
+            "name": "court",
+            "author_id": "0224d702-8e4f-4841-ad8b-cd1b15829d7b"
+        },
+        {
+            "_id": "04be2dbf-a11d-4a0c-b0cf-acc9f7827879",
+            "name": "summer kid",
+            "author_id": "190a06b2-c41e-4cae-973f-e6c5ecf1192c"
+        },
+        {
+            "_id": "75db21d5-70de-4b24-8a0a-b4d50284789b",
+            "name": "collection",
+            "author_id": "190a06b2-c41e-4cae-973f-e6c5ecf1192c"
+        },
+        {
+            "_id": "cc579e71-1160-4151-90cb-191182fae68a",
+            "name": "health this",
+            "author_id": "190a06b2-c41e-4cae-973f-e6c5ecf1192c"
+        },
+        {
+            "_id": "41eaafd9-fe0c-4ed5-a017-9078e6ccacd4",
+            "name": "great",
+            "author_id": "712685fe-c8c3-4f6c-a401-b842134abdf8"
+        },
+        {
+            "_id": "6eda2cde-a7fc-4413-8852-b42c6c26f1eb",
+            "name": "open measure",
+            "author_id": "712685fe-c8c3-4f6c-a401-b842134abdf8"
+        },
+        {
+            "_id": "900eaf79-da3a-4710-88c3-0635424e5165",
+            "name": "four until",
+            "author_id": "712685fe-c8c3-4f6c-a401-b842134abdf8"
+        }
+    ],
+    "authors": [
+        {
+            "_id": "0224d702-8e4f-4841-ad8b-cd1b15829d7b",
+            "name": "Jenny Lopez"
+        },
+        {
+            "_id": "190a06b2-c41e-4cae-973f-e6c5ecf1192c",
+            "name": "Steven Green"
+        },
+        {
+            "_id": "712685fe-c8c3-4f6c-a401-b842134abdf8",
+            "name": "Brent Rodgers"
+        }
+    ],
+    "resources": [
+        {
+            "_id": "a97be4e9-56cd-4c73-833a-233f8c5403db",
+            "resource_name": "individual protect change",
+            "books": [
+                {
+                    "_id": "0e091081-dd85-4bd4-86a9-02c114292148",
+                    "mark": 6
+                },
+                {
+                    "_id": "6078f635-4639-40f1-88d1-5eeeeb78c213",
+                    "mark": 10
+                },
+                {
+                    "_id": "9afd11c5-1a72-466b-9a1d-aa0d4a1d3a0c",
+                    "mark": 4
+                },
+                {
+                    "_id": "04be2dbf-a11d-4a0c-b0cf-acc9f7827879",
+                    "mark": 10
+                },
+                {
+                    "_id": "75db21d5-70de-4b24-8a0a-b4d50284789b",
+                    "mark": 9
+                },
+                {
+                    "_id": "cc579e71-1160-4151-90cb-191182fae68a",
+                    "mark": 5
+                },
+                {
+                    "_id": "41eaafd9-fe0c-4ed5-a017-9078e6ccacd4",
+                    "mark": 7
+                },
+                {
+                    "_id": "6eda2cde-a7fc-4413-8852-b42c6c26f1eb",
+                    "mark": 9
+                },
+                {
+                    "_id": "900eaf79-da3a-4710-88c3-0635424e5165",
+                    "mark": 3
+                }
+            ]
+        },
+        {
+            "_id": "6b0b5017-657d-4315-845a-8eea58f02d46",
+            "resource_name": "attention",
+            "books": [
+                {
+                    "_id": "0e091081-dd85-4bd4-86a9-02c114292148",
+                    "mark": 7
+                },
+                {
+                    "_id": "6078f635-4639-40f1-88d1-5eeeeb78c213",
+                    "mark": 2
+                },
+                {
+                    "_id": "9afd11c5-1a72-466b-9a1d-aa0d4a1d3a0c",
+                    "mark": 8
+                },
+                {
+                    "_id": "04be2dbf-a11d-4a0c-b0cf-acc9f7827879",
+                    "mark": 5
+                },
+                {
+                    "_id": "75db21d5-70de-4b24-8a0a-b4d50284789b",
+                    "mark": 2
+                },
+                {
+                    "_id": "cc579e71-1160-4151-90cb-191182fae68a",
+                    "mark": 2
+                },
+                {
+                    "_id": "41eaafd9-fe0c-4ed5-a017-9078e6ccacd4",
+                    "mark": 2
+                },
+                {
+                    "_id": "6eda2cde-a7fc-4413-8852-b42c6c26f1eb",
+                    "mark": 3
+                },
+                {
+                    "_id": "900eaf79-da3a-4710-88c3-0635424e5165",
+                    "mark": 9
+                }
+            ]
+        },
+        {
+            "_id": "27e6c79f-c4c1-4eb9-b382-549a6f0948f8",
+            "resource_name": "push last word",
+            "books": [
+                {
+                    "_id": "0e091081-dd85-4bd4-86a9-02c114292148",
+                    "mark": 2
+                },
+                {
+                    "_id": "6078f635-4639-40f1-88d1-5eeeeb78c213",
+                    "mark": 7
+                },
+                {
+                    "_id": "9afd11c5-1a72-466b-9a1d-aa0d4a1d3a0c",
+                    "mark": 3
+                },
+                {
+                    "_id": "04be2dbf-a11d-4a0c-b0cf-acc9f7827879",
+                    "mark": 5
+                },
+                {
+                    "_id": "75db21d5-70de-4b24-8a0a-b4d50284789b",
+                    "mark": 0
+                },
+                {
+                    "_id": "cc579e71-1160-4151-90cb-191182fae68a",
+                    "mark": 1
+                },
+                {
+                    "_id": "41eaafd9-fe0c-4ed5-a017-9078e6ccacd4",
+                    "mark": 5
+                },
+                {
+                    "_id": "6eda2cde-a7fc-4413-8852-b42c6c26f1eb",
+                    "mark": 5
+                },
+                {
+                    "_id": "900eaf79-da3a-4710-88c3-0635424e5165",
+                    "mark": 1
+                }
+            ]
+        }
+    ]
+}
