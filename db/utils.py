@@ -1,6 +1,7 @@
 from repo.books_repo import books_repo
 from repo.resources_repo import resources_repo
 from repo.authors_repo import authors_repo
+from repo.books_marks_repo import books_marks_repo
 import json
 
 backup_file = 'backup.json'
@@ -10,6 +11,7 @@ def drop():
     books_repo.drop()
     resources_repo.drop()
     authors_repo.drop()
+    books_marks_repo.drop()
 
 
 def backup():
@@ -17,6 +19,7 @@ def backup():
         'books': books_repo.find_all(),
         'authors': authors_repo.find_all(),
         'resources': resources_repo.find_all(),
+        'books_marks': books_marks_repo.find_all(),
     }
 
     with open(backup_file, 'w+') as outfile:
@@ -31,5 +34,6 @@ def restore():
             books_repo.insert_all(data['books'])
             resources_repo.insert_all(data['resources'])
             authors_repo.insert_all(data['authors'])
+            books_marks_repo.insert_all(data['books_marks'])
     except:
         print('File "backup.json" is not found or damaged\n')
